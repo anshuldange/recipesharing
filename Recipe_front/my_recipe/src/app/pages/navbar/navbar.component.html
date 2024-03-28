@@ -1,0 +1,18 @@
+<p>
+    <mat-toolbar class="flex items-center justify-between" color="primary">
+        <div>
+            <span>Recipe Sharing</span>
+        </div>
+        <div>
+            <span class="example-spacer"></span>
+            
+            <span>{{user.fullName}}</span>
+
+            <button (click)="handleLogOut()" mat-icon-button aria-label="Example icon button with a home icon">
+                <mat-icon>logout</mat-icon>
+            </button>
+ 
+        </div>
+
+    </mat-toolbar>
+</p>
